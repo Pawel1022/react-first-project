@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/public/robots.txt
+/public/logo192.jpg
+/public/manifest.json
