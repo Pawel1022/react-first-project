@@ -103,7 +103,8 @@ function SkillList({ skills }) {
 function Skill({ data }) {
 	return (
 		<li className='skill' style={data.cssStyles}>
-			{data.skill} {data.level === 'advanced' ? '💪' : '😊'}
+			{data.skill} {data.level === 'advanced' && '💪'} {data.level === 'intermediate' && '😊'}{' '}
+			{data.level === 'begginer' && '👶'}
 		</li>
 	)
 }
