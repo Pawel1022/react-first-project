@@ -1,40 +1,45 @@
 # 💼 React Portfolio Card – My Practice Project
 
-This is a simple portfolio-style project built with **React**.  
-It displays basic personal information and a list of skills using dynamic components and inline styling.
+This is a simple portfolio-style project built with **React**, showing basic personal information and a list of skills with custom styling.
 
 ---
 
 ## 📚 Based on a course
 
-This project was inspired by the [React course by Jonas Schmedtmann](https://www.udemy.com/course/the-ultimate-react-course/?couponCode=KEEPLEARNING) and implemented entirely by **me** as personal practice and to strengthen my understanding of React fundamentals.
+This project is based on the [The Ultimate React Course 2025](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann, and was recreated by **me, Paweł Woźniak**, as an individual exercise to practice writing clean React components and working with props and dynamic styles.
 
 ---
 
 ## ✨ Features
 
 - Functional React components
-- Props and component composition
-- Dynamic rendering of a skills list
-- Custom inline styles passed via props
+- Data-driven UI using props
+- Custom inline styles based on skill level
+- Conditional rendering (e.g. emoji by skill level)
 - Clean structure
 
 ---
 
-## 🧰 Technologies used
+## 🧰 Tech stack
 
-- React (with `createRoot` API)
+- React (with ReactDOM.createRoot API)
 - JSX
-- CSS (external + inline styles)
+- CSS Modules
 - No external libraries
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Live Demo
 
-### 1. Clone the repo
+👉 [https://react-first-project-wheat.vercel.app/](https://react-first-project-wheat.vercel.app/)
+
+---
+
+## 🛠️ Run locally
 
 ```bash
-git clone https://github.com/your-username/react-portfolio-card.git
-cd react-portfolio-card
+git clone https://github.com/Pawel1022/react-first-project.git
+cd react-first-project
+npm install
+npm start
 ```
